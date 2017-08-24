@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*页面最低部*/
+#footer {
+  width: 100%;
+  height: 165px;
+}
+#footer .center {
+  width: 1226px;
+  height: 155px;
+  margin: 40px auto 0;
+}
+#footer .center .shang {
+  width: 1226px;
+  height: 58px;
+  margin-top: 40px;
+}
+#footer .center .shang img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  float: left;
+}
+#footer .center .shang .zhongxin {
+  width: 1155px;
+  height: 58px;
+  float: right;
+}
+#footer .center .shang .zhongxin .wenzi {
+  width: 780px;
+  height: 58px;
+  float: left;
+}
+#footer .center .shang .zhongxin .wenzi a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #757575;
+}
+#footer .center .shang .zhongxin .wenzi a:hover {
+  color: #ff6700;
+}
+#footer .center .shang .zhongxin .wenzi a.one {
+  color: #B0B0B0;
+}
+#footer .center .shang .zhongxin .wenzi a.one:hover {
+  color: #ff6700;
+}
+#footer .center .shang .zhongxin .wenzi span {
+  font-size: 12px;
+  color: #B0B0B0;
+}
+#footer .center .shang .zhongxin .tupian {
+  width: 340px;
+  height: 58px;
+  float: right;
+}
+#footer .center .shang .zhongxin .tupian img.one {
+  display: block;
+  float: left;
+  width: 88px;
+  height: 30px;
+  margin-top: 13px;
+}
+#footer .center .shang .zhongxin .tupian img.two {
+  display: block;
+  float: left;
+  width: 80px;
+  height: 30px;
+  margin-top: 13px;
+}
+#footer .center .xia {
+  width: 1226px;
+  height: 75px;
+}
+#footer .center .xia img {
+  display: block;
+  width: 267px;
+  height: 19px;
+  margin-top: 55px;
+  margin-left: 480px;
+}
+/*页面最低部结束*/

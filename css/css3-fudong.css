@@ -1,0 +1,43 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*用css3设置浮动效果*/
+
+
+/*控制单品浮动*/
+.dange{
+	position: relative;
+	transition: all 0.2s linear;
+}
+.dange:hover{
+	box-shadow:0 15px 30px rgba(0,0,0,0.1);
+	transform:translate3d(0, -2px, 0);
+}
+/*控制内容浮动*/
+.content{
+	position: relative;
+	transition: all 0.2s linear;
+}
+.content:hover{
+	box-shadow:0 15px 30px rgba(0,0,0,0.1);
+	transform:translate3d(0, -2px, 0);
+}
+/*控制小块img浮动*/
+.xiaokuai img{
+	position: relative;
+	transition: all 0.2s linear;
+}
+.xiaokuai img:hover{
+	box-shadow:0 15px 30px rgba(0,0,0,0.1);
+	transform:translate3d(0, -2px, 0);
+}
+/*控制智能硬件里左边的大图浮动*/
+.teshu{
+	position: relative;
+	transition: all 0.2s linear;
+}
+.teshu:hover{
+	box-shadow:0 15px 30px rgba(0,0,0,0.1);
+	transform:translate3d(0, -2px, 0);
+}

@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+//主页面二级菜单
+#menu {
+    background: url("../images/xmad.jpg") no-repeat center center;
+    width: 1226px;
+    height: 460px;
+    margin: 0 auto;
+    position: relative;
+    .menu-left {
+        width: 235px;
+        height: 460px;
+        color: #FFFFFF;
+        background: rgba(0,0,0,0.6);
+        //      opacity: 0.8;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 6;
+        li {
+            width: 235px;
+            height: 40px;
+            list-style: none;
+            text-indent: 30px;
+            a {
+                margin-top: 5px;
+                font-size: 16px;
+                color: #FFFFFF;
+                line-height: 40px;
+                display: block;
+                text-decoration: none;
+            }
+            .hiden {
+                width: 700px;
+                height: 460px;
+                background: white;
+                position: absolute;
+                left: 235px;
+                top: 0;
+                //              border: 1px solid indigo;
+                display: none;
+                .lie {
+                    width: 265px;
+                    height: 460px;
+                    background: #FFFFFF;
+                    float: left;
+                    position: relative;
+                    a {
+                        color: #333333;
+                        display: block;
+                        position: relative;
+                        img {
+                            width: 40px;
+                            height: 40px;
+                            float: left;
+                            position: relative;
+                            top: 17px;
+                            margin-left: 25px;
+                            //                        border: 1px solid green;
+                        }
+                        span.jianjie {
+                            font-size: 14px;
+                            line-height: 70px;
+                            //                              border: 1px solid goldenrod;
+                            margin-left: -15px;
+                            margin-right: 40px;
+                        }
+                        span.btn {
+                            border: 1px solid #FF6700;
+                            color: #FF6700;
+                            padding: 3px 8px;
+                            &:hover {
+                                background: #f25807;
+                                border-color: #f25807;
+                                color: #fff;
+                            }
+                        }
+                        &:hover {
+                            color: #FF6700;
+                        }
+                    }
+                }
+            }
+            &:hover {
+                background: #FF6700;
+            }
+            &:hover .hiden {
+                display: block;
+            }
+        }
+    }
+}
+//二级菜单结束
+
+//主页面底部
+#menu-bottom {
+    width: 1226px;
+    height: 170px;
+    margin: 20px auto 0;
+    .six {
+        width: 234px;
+        height: 170px;
+        float: left;
+        background: #5F5750;
+        margin-right: 15px;
+        li {
+            float: left;
+            width: 76px;
+            height: 67px;
+            text-align: center;
+            padding-top: 15px;
+            list-style: none;
+
+            a {
+                color: #CDCAC8;
+                text-decoration: none;
+                .icon {
+                    display: block;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+
